@@ -1,0 +1,48 @@
+body{
+    background-color: #ECD5E3;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+.header-bienvenida{
+    background-color: #FEE1E8;
+    border-bottom: 8px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.img-bienvenida{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.img-bienvenida:hover{
+    transform: scale(1.1);
+}
+main{
+    margin-top: 180px;
+}
+.nav-title{
+    text-align: center;
+}
+.icons{
+    width: 20px;
+    margin-right: 6px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.nav-sobreMi{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+.certificados{
+    width: 180px;
+}
