@@ -43,6 +43,9 @@ main{
     justify-content: center;
     text-align: center;
 }
+.img-js{
+    width: 50px;
+}
 .certificados{
     width: 180px;
 }
